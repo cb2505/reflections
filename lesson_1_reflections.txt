@@ -39,12 +39,13 @@ How can you use the commands git log and git diff to view the history of files?
 	git config --global push.default upstream
 	git config --global merge.conflictstyle diff3
 	subl -bash_profile 		# will load the bash profile after ive added alias subl="C:/Program\ Files/Sublime\ Text\ 2/sublime_text.exe"
- 							# in bash_profile
+	~/.bash_profile 		# in bash_profile
  	ls -a 					# see hidden files
  	git init				# initialize a git repository
  	git status				# aks if it is a git respository 
  	git add fileName
  	git rm --cached fileName #remove file
+ 	git reset 				# also removes files
 
 How might using version control make you more confident to make changes that 
 could break something?

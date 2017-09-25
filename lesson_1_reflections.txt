@@ -1,0 +1,56 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    	cmd
+	>FC game_old.js game_new.js 
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    	Git
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    	u can control how important it is in git
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    	because there are not related to each others
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log, to see the commits, exit press "q"
+	git diff old new
+	git checkout nr
+	pwd							# shows i which dir u are
+	cd folder					# goes to the next folder, if there is here
+	git clone https://github.com/udacity/asteroids.git 
+	git scp 					# secure copy 
+	cd ~                        # change directories to your home directory
+	mkdir version-control       # make version-control directory
+	cd version-control          # go to version-control directory
+	mkdir reflections           # create reflections directory
+	cd reflections              # go to reflections directory
+	subl lesson_1_reflections.txt # launch sublime with file called lesson_1_reflections.txt (you can replace subl with another editor here if you prefer a different one)
+	mv source/fileName fileName		# move file from source to destination + evtl rename
+	git config --global core.editer "path -n -w" # the core editer -n (new window) -w(wait for you before closing it
+	git config --global push.default upstream
+	git config --global merge.conflictstyle diff3
+	subl -bash_profile 		# will load the bash profile after ive added alias subl="C:/Program\ Files/Sublime\ Text\ 2/sublime_text.exe"
+ 							# in bash_profile
+ 	ls -a 					# see hidden files
+ 	git init				# initialize a git repository
+ 	git status				# aks if it is a git respository 
+ 	git add fileName
+ 	git rm --cached fileName #remove file
+
+How might using version control make you more confident to make changes that 
+could break something?
+
+    	Give you the error message, that your head version is not the latest in the repository
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+   	to have different code and i can compare
